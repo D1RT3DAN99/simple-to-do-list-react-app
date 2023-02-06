@@ -3,9 +3,7 @@ import './Todo.css';
 
 const Todo = () => {
     const [todos, setTodos] = useState([
-        { id: 1, text: 'Learn React' },
-        { id: 2, text: 'Build a To-Do List app' },
-        { id: 3, text: 'Enjoy coding' }
+        { id: 1, text: 'Add or Delete To-do items!' },
     ]);
 
     const addTodo = (text) => {
